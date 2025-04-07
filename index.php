@@ -14,9 +14,11 @@
 
  <script src="js/bootstrap.min.js"  type="text/javascript"></script>
  	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
 <?php if(@$_GET['w'])
 {echo'<script>alert("'.@$_GET['w'].'");</script>';}
 ?>
+
 <script>
 function validateForm() {var y = document.forms["form"]["name"].value;	var letters = /^[A-Za-z]+$/;if (y == null || y == "") {alert("Name must be filled out.");
   return false;}var z =document.forms["form"]["college"].value;if (z == null || z == "") {alert("college must be filled out.");
@@ -159,8 +161,10 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
     
   </div>
 </div>
-<?php if(@$_GET['q7'])
-{ echo'<p style="color:red;font-size:15px;">'.@$_GET['q7'];}?>
+
+<? php if(@$_GET['q7'])
+{ echo'<p style="color:red;font-size:15px;">'.@$_GET['q7'];}
+  ?>
 <!-- Button -->
 <div class="form-group">
   <label class="col-md-12 control-label" for=""></label>
