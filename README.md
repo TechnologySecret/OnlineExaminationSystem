@@ -1,4 +1,5 @@
-# Online Examination System
+# Project Overview: 
+
 These days, Online examination system is a web-based examination
 system where examinations are given online. either through the
 internet or intranet using computer system. The main goal of this
@@ -29,6 +30,8 @@ which can be recorded pertest.
 Responses by the candidates will bechecked automatically.
 It reduces time consumption.
 
+
+# Online Examination System
 A simple PHP-based online exam system where admins can create tests and students can take them. Built with HTML, CSS and JavaScript with PHP, and MySQL.
 
 ## Features
